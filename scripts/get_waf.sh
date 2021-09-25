@@ -6,7 +6,7 @@ set -e
 WAFVERSION=2.0.14
 WAFTARBALL=waf-$WAFVERSION.tar.bz2
 WAFURL=https://waf.io/$WAFTARBALL
-WAFUPSTREAMKEY=https://gitlab.com/ita1024/waf/raw/master/utils/pubkey.asc
+WAFUPSTREAMKEY=https://gitlab.com/ita1024/waf-old/-/raw/waf-2.0.1/utils/pubkey.asc
 
 WAFBUILDDIR=`mktemp -d`
 
